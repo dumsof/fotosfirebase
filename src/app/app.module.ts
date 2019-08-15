@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { CargaComponent } from './components/carga/carga.component';
 import { FeatureRoutingModule } from './app.routes';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FotosComponent,
-    CargaComponent
+    CargaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
