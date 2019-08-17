@@ -26,4 +26,8 @@ export class CargaComponent implements OnInit {
   pruebaSobreElemento(envent) {
     console.log(envent);
   }
+
+  limpiarArchivo() {
+    this.archivos = [];
+  }
 }
