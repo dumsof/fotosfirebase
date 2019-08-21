@@ -21,7 +21,7 @@
             </thead>
             <tbody>
                 <tr *ngFor="let archivo of archivos">
-                    <td>
+                    <td [ngClass]="{'text-green': archivo.progreso >=100}">
                         {{archivo.nombreArchivo}}
                     </td>
                     <td>
